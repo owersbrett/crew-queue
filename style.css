@@ -1,0 +1,68 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+
+  main {
+      width: 70%;
+    min-height: 400px;
+    min-width: 400px;
+    background: #fff;
+    padding: 40px 20px;
+    border-radius: 5px;
+    box-shadow: 5px 55px 50px -20px #b6b6b6; 
+}
+
+.crew-queue li img {
+    height: 35px;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+    /* background-color: #1c13bd; */
+  }
+
+.crew-queue{
+    display: flex;
+}
+
+.c-q-logo {
+    margin-left: auto;
+    margin-right: auto
+}
+
+.crew-queue {
+    height: 46px;
+    align-items: center;
+    padding: 0 10px;
+    border: 1px solid rgba(238,238,238 ,1);
+    border-radius: 5px;
+    color: rgba(117,117,117 ,1);
+    box-shadow: 5px 10px 20px -20px #ffcb17;
+  }
+  .crew-queue li {
+    cursor: pointer;
+  }
+  .crew-queue li:hover{
+    color: #ffcb17;
+  }
+  .c-q-logo {
+    color: #ffcb17;
+    font-size: 1.3em;
+  }
+  .crew-queue li:not(:last-child):not(.c-q-logo) {
+    margin-right: 10px;
+  }
+  .crew-queue li  i:not(.fa-crew-queue):not(.fa-search):not(.fa-user-circle-o) {
+    margin-right: 3px;
+  }
+  .crew-queue li > button {
+    font-size: 0.8em;
+    border: 0;
+    background: #ffcb17;
+    color: #fff;
+    border-radius: 100px;
+  }
